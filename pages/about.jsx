@@ -1,9 +1,11 @@
 import React from "react";
 
-export default () => {
+const About = () => {
   return (
     <div>
       <h1>Hola pepe, hablo de mi</h1>
     </div>
   );
 };
+
+export default About;

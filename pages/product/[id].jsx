@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
-export default () => {
+
+const ProductId = () => {
   const {
     query: { id },
   } = useRouter();
@@ -11,3 +12,5 @@ export default () => {
     </div>
   );
 };
+
+export default ProductId;
